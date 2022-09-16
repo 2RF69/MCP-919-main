@@ -1,0 +1,13 @@
+package senseiclient.gui.hud;
+
+import net.minecraft.client.Minecraft;
+
+public class ScreenPosition {
+	
+	private static final Minecraft mc = Minecraft.getMinecraft();
+	
+	private double x, y;
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package senseiclient.gui.mod;
+
+import net.minecraft.client.Minecraft;
+
+
+public class HudMod {
+	
+	
+	public Minecraft mc.getMinecraft()
+
+}

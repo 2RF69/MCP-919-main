@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 9/11/22 2:44 AM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at senseiclient.gui.mod.mods.FpsMod.draw(FpsMod.java:19)
+	at senseiclient.gui.mod.HudManager.renderMods(HudManager.java:26)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:333)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1276)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1035)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:350)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at senseiclient.gui.mod.mods.FpsMod.draw(FpsMod.java:19)
+	at senseiclient.gui.mod.HudManager.renderMods(HudManager.java:26)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:333)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player323'/178, l='MpServer', x=8.50, y=65.00, z=8.50]]
+	Chunk stats: MultiplayerChunkCache: 0, 0
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: -1345.00,4.00,-310.00 - World: (-1345,4,-310), Chunk: (at 15,0,10 in -85,-20; contains blocks -1360,0,-320 to -1345,255,-305), Region: (-3,-1; contains chunks -96,-32 to -65,-1, blocks -1536,0,-512 to -1025,255,-1)
+	Level time: 0 game time, 0 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 1 total; [EntityPlayerSP['Player323'/178, l='MpServer', x=8.50, y=65.00, z=8.50]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:356)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2599)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:379)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_345, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 854804216 bytes (815 MB) / 985661440 bytes (940 MB) up to 985661440 bytes (940 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) HD Graphics 5500 GL version 4.4.0 - Build 20.19.15.5126, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M6_pre2
+	OptiFine Build: ~~NULL~~
+	Render Distance Chunks: 7
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.4.0 - Build 20.19.15.5126
+	OpenGlRenderer: Intel(R) HD Graphics 5500
+	OpenGlVendor: Intel
+	CpuCount: 4

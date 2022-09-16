@@ -1,0 +1,10 @@
+package senseiclient.event.impl;
+
+import senseiclient.event.Event;
+
+public class RenderEvent extends Event {
+	
+	
+	
+
+}

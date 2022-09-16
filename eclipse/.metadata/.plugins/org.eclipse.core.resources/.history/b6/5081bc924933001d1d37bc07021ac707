@@ -1,0 +1,61 @@
+package senseiclient.gui.mod.mods;
+
+import java.awt.Color;
+
+import senseiclient.gui.mod.HudMod;
+import senseiclient.util.font.FontUtil;
+import org.lwjgl.opengl.GL11;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.FontRenderer;
+import net.minecraft.client.gui.Gui;
+import net.minecraft.client.settings.KeyBinding;
+
+public class KeystrokesMod extends HudMod {
+
+	public KeystrokesMod() {
+		super("Keystrokes", 5, 90);
+		
+	}
+	
+	public static class Key {
+		private static final Key W = new Key;
+		
+		private final String name;
+		private final KeyBinding keyBind;
+		private final int x,y,w,h;
+		
+		public Key(String name, KeyBinding keyBind, int x, int y, int w, int h) {
+			this.name = name;
+			this.keyBind = keybBind;
+			this.x = x;
+			this.y = y;
+			this.w = w;
+			this.ht = h;
+		}
+		
+		public boolean isDown() {
+			return keyBind.isKeyDown();
+		}
+		
+		public int getHeight() {
+			return h;
+
+		
+		}
+		
+		private void getWidth() {
+			return 2
+
+		}
+		
+		
+		
+	}
+
+
+
+}
+                
+
+

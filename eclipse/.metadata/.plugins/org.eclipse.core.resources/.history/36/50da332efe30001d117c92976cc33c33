@@ -1,0 +1,5 @@
+package senseiclient.gui.mod;
+
+public class HudManager {
+
+}

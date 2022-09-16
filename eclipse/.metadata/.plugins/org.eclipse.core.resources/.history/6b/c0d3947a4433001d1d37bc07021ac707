@@ -1,0 +1,7 @@
+package senseiclient.gui.clickgui;
+
+import net.minecraft.client.gui.GuiScreen;
+
+public class FeatherClickGUI extends GuiScreen {
+	
+}

@@ -1,0 +1,22 @@
+package senseiclient.gui.mod;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.FontRenderer;
+
+
+public class HudMod {
+	
+	
+	public Minecraft mc.getMinecraft();
+	
+	public FontRenderer fr = mc.fontRendererObj;
+	
+	public String name;
+	
+	public int x,y;
+	
+	public HudMod() {
+		
+	}
+
+}

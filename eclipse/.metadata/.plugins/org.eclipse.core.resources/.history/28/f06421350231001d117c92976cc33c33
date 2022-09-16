@@ -1,0 +1,23 @@
+package senseiclient;
+
+import org.lwjgl.opengl.Display;
+
+import senseiclient.gui.mod.HudManager;
+
+public class Client {
+	
+	public String name = "SENSEI CLIENT", version = "1.0 ALPHA";
+	public static Client INSTANCE = new Client();
+	
+	public HudManager hudManager;
+	
+	public void startup() {
+		Display.setTitle(name + " | " + version);
+	}
+	
+	public void shutdown() {
+		
+	}
+			
+
+}

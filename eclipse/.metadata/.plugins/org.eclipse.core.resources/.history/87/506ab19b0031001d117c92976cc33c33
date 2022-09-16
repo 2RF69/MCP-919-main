@@ -1,0 +1,14 @@
+package senseiclient.gui.mod.mods;
+
+import senseiclient.Client;
+import senseiclient.gui.mod.HudMod;
+
+public class TestMod extends HudMod {
+	
+	public TestMod() {
+		
+	}
+
+	
+	
+}

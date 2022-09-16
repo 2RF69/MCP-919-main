@@ -1,0 +1,41 @@
+package senseiclient.gui.mod.mods;
+
+
+import senseiclient.gui.mod.HudMod;
+import senseiclient.util.font.FontUtil;
+
+public class FpsMod extends HudMod {
+	
+	//�
+
+	public FpsMod() {
+		super("FPS", 65, 5, "client/mod/client/fps.png");
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void draw() {
+		
+		FontUtil.normal.drawString("FPS : " + mc.getDebugFPS(), getX(), getY(), -1);
+		super.draw();
+	}
+	
+	@Override
+	public void renderDummy(int mouseX, int mouseY) {
+		FontUtil.normal.drawString("FPS : " + mc.getDebugFPS(), getX(), getY(), -1);
+		super.renderDummy(mouseX, mouseY);
+	}
+	
+	@Override
+	public int getWidth() {
+		return fr.getStringWidth("FPS : " + mc.getDebugFPS());
+	}
+	
+	@Override
+	public int getHeight() {
+		return fr.FONT_HEIGHT;
+	}
+	
+	
+
+}

@@ -1,0 +1,30 @@
+package senseiclient.gui.mod.mods;
+
+import senseiclient.Client;
+import senseiclient.gui.mod.HudMod;
+
+public class TestMod extends HudMod {
+	
+	public TestMod() {
+		super(Client.INSTANCE.name + "1.0 ALPHA", 5, 5);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void draw() {
+		fr.drawStringWithShadow(name, getX(), getY(), -1);
+		super.draw();
+	}
+	
+	@Override
+	public int getWidth() {
+		
+		return fr.getStringWidth(name);
+	}
+	
+	@Override
+	public int getHeight() {
+		return fr.FONT_HEIGHT;
+	}
+	
+}

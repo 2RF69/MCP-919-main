@@ -1,0 +1,55 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 9/6/22, 9:41 PM
+Description: Unexpected error
+
+java.lang.ClassCastException: class senseiclient.gui.MainMenu cannot be cast to class net.minecraft.client.gui.GuiMainMenu (senseiclient.gui.MainMenu and net.minecraft.client.gui.GuiMainMenu are in unnamed module of loader 'app')
+	at net.minecraft.client.renderer.EntityRenderer.frameInit(EntityRenderer.java:2603)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1177)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1035)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:350)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Eclipse Adoptium
+	Memory: 808123952 bytes (770 MB) / 1073741824 bytes (1024 MB) up to 1073741824 bytes (1024 MB)
+	JVM Flags: 3 total; -Xmx1024M -Xms1024M -XX:+ShowCodeDetailsInExceptionMessages
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) HD Graphics 5500 GL version 4.4.0 - Build 20.19.15.5126, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M6_pre2
+	OptiFine Build: ~~NULL~~
+	Render Distance Chunks: 7
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.4.0 - Build 20.19.15.5126
+	OpenGlRenderer: Intel(R) HD Graphics 5500
+	OpenGlVendor: Intel
+	CpuCount: 4

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.Display"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.FontRenderer"/>
+<fullyQualifiedTypeName name="senseiclient.gui.mod.mods.KeystrokesMod"/>
+<fullyQualifiedTypeName name="senseiclient.gui.mod.HudManager"/>
+<fullyQualifiedTypeName name="senseiclient.gui.mod.HudMod"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.GlStateManager"/>
+<fullyQualifiedTypeName name="senseiclient.gui.util.RenderUtil"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="senseiclient.util.font.FontUtil"/>
+<fullyQualifiedTypeName name="senseiclient.gui.clickgui.FeatherClickGUI"/>
+<fullyQualifiedTypeName name="senseiclient.gui.clickgui.FeatherCard"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiButton"/>
+<fullyQualifiedTypeName name="senseiclient.Client"/>
+<fullyQualifiedTypeName name="java.awt.Event"/>
+<fullyQualifiedTypeName name="senseiclient.event.Event"/>
+<fullyQualifiedTypeName name="senseiclient.event.impl.RenderEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+</qualifiedTypeNameHistroy>

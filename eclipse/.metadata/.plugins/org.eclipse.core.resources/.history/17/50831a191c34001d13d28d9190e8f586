@@ -1,0 +1,5 @@
+package senseiclient.event.impl;
+
+public class RenderEvent {
+
+}
